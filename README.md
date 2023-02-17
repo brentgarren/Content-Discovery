@@ -44,8 +44,8 @@ Google Hacking / Dorking
 
 Google hacking / Dorking utilizes Google's advanced search engine features, which allow you to pick out custom content. You can, for instance, pick out results from a certain domain name using the site: filter, for example (site:tryhackme.com) you can then match this up with certain search terms, say, for example, the word admin (site:tryhackme.com admin) this then would only return results from the tryhackme.com website which contain the word admin in its content. You can combine multiple filters as well. Here is an example of more filters you can use:
 <pre>
-site | site:tryhackme.com | returns results only from the specified website address
-inurl | inurl:admin | returns results that has a specified word in the url
-filetype | filetype:pdf | returns results that are a particular file extension
-intitle | intitle:admin | returns results that contain the specified word in the title
+site     | site:tryhackme.com | returns results only from the specified website address
+inurl    | inurl:admin        | returns results that has a specified word in the url
+filetype | filetype:pdf       | returns results that are a particular file extension
+intitle  | intitle:admin      | returns results that contain the specified word in the title
 </pre>
