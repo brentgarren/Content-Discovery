@@ -9,6 +9,6 @@ There are three main ways of discovering content on a website which we'll cover.
 
 ------------------------------------
 
-# Robots.txt
-<br>
+# <h3>Robots.txt</h3>
+
 The robots.txt file is a document that tells search engines which pages they are and aren't allowed to show on their search engine results or ban specific search engines from crawling the website altogether. It can be common practice to restrict certain website areas so they aren't displayed in search engine results. These pages may be areas such as administration portals or files meant for the website's customers.
