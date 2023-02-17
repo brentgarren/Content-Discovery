@@ -34,7 +34,18 @@ Sometimes when frameworks are used to build a website, a favicon that is part of
 
 ----------------------------------
 
- # <h3> HTTP Headers</h3>
+ # <h3> Framework Stack</h3>
  
- <pre> curl ipaddress -v </pre>
- When we make requests to the web server, the server returns various HTTP headers. These headers can sometimes contain useful information such as the webserver software and possibly the programming/scripting language in use.
+Once you've established the framework of a website, favicon example or by looking for clues in the page source such as comments, copyright notices or credits, you can then locate the framework's website. From there, we can learn more about the software and other information, possibly leading to more content we can discover.
+
+----------------------------------
+
+Google Hacking / Dorking
+
+Google hacking / Dorking utilizes Google's advanced search engine features, which allow you to pick out custom content. You can, for instance, pick out results from a certain domain name using the site: filter, for example (site:tryhackme.com) you can then match this up with certain search terms, say, for example, the word admin (site:tryhackme.com admin) this then would only return results from the tryhackme.com website which contain the word admin in its content. You can combine multiple filters as well. Here is an example of more filters you can use:
+<pre>
+site | site:tryhackme.com | returns results only from the specified website address
+inurl | inurl:admin | returns results that has a specified word in the url
+filetype | filetype:pdf | returns results that are a particular file extension
+intitle | intitle:admin | returns results that contain the specified word in the title
+</pre>
