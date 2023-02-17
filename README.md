@@ -25,7 +25,5 @@ Sometimes when frameworks are used to build a website, a favicon that is part of
 
  # <h3> HTTP Headers</h3>
  
- <pre>
- curl ipaddress -v
- </pre>
+ <pre> curl ipaddress -v </pre>
  When we make requests to the web server, the server returns various HTTP headers. These headers can sometimes contain useful information such as the webserver software and possibly the programming/scripting language in use.
