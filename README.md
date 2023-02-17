@@ -22,3 +22,10 @@ Sometimes when frameworks are used to build a website, a favicon that is part of
  # <h3> Sitemap.xml</h3>
  
  the sitemap.xml file gives a list of every file the website owner wishes to be listed on a search engine. These can sometimes contain areas of the website that are a bit more difficult to navigate to or even list some old webpages that the current site no longer uses but are still working behind the scenes.<br>
+
+ # <h3> HTTP Headers</h3>
+ 
+ <pre>
+ curl ipaddress -v
+ </pre>
+ When we make requests to the web server, the server returns various HTTP headers. These headers can sometimes contain useful information such as the webserver software and possibly the programming/scripting language in use.
